@@ -25,7 +25,7 @@ int main()
       print_square(5, 5);
       break;
     case 'c':
-      puts("You selected chars with a 11x17 font:");
+      puts("You selected chars with a 11x16 font:");
       for (char c = 'A'; c < 'D'; c++)
 	print_char_11x16(c);
       break;
@@ -35,8 +35,8 @@ int main()
       break;
     case 'h':
       puts("You selected chars with a 5x7 font:");
-      for (char c = 'A'; c < 'D'; c++)
-        print_char_5x7(c);
+       for (char z = 'A'; z < 'D'; z++)
+        print_char_5x7(z);
       break;
     case 'q':
       puts("Bye!");

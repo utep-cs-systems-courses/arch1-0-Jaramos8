@@ -8,7 +8,7 @@ void print_arrow(int startCol, int sCol, int size);
 void print_char_5x7(char c);
 
 extern const unsigned short font_11x16[95][11];
-extern const unsigned short font_5x7[96][5];
+extern const unsigned char font_5x7[96][5];
 extern const unsigned char font_8x12[95][12];
 
 #endif
